@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../../../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../../../jacoco-resources/report.gif" type="image/gif"/><title>testEjemplo.java</title><link rel="stylesheet" href="../../../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../../../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../../../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../../../index.html" class="el_report">testEjemplo (6 may 2026 13:38:06)</a> &gt; <a href="../../index.html" class="el_group">Practicas9-10</a> &gt; <a href="../index.html" class="el_bundle">PR-CTICAS-9-Y-10-/Ejercicio1/src</a> &gt; <a href="index.source.html" class="el_package">Rectangulo</a> &gt; <span class="el_source">testEjemplo.java</span></div><h1>testEjemplo.java</h1><pre class="source lang-java linenums">package Rectangulo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+<span class="fc" id="L7">class testEjemplo {</span>
+
+    @Test
+    void valoresPositivos() {
+<span class="fc" id="L11">        ejemplo r = new ejemplo(10, 4);</span>
+
+<span class="fc" id="L13">        assertAll(</span>
+<span class="fc" id="L14">            () -&gt; assertEquals(40, r.area()),</span>
+<span class="fc" id="L15">            () -&gt; assertEquals(28, r.perimetro())</span>
+        );
+<span class="fc" id="L17">    }</span>
+
+    @Test
+    void valoresNegativos() {
+<span class="fc" id="L21">        ejemplo r1 = new ejemplo(-10, 4); // alto negativo</span>
+<span class="fc" id="L22">        ejemplo r2 = new ejemplo(10, -4); // ancho negativo</span>
+<span class="fc" id="L23">        ejemplo r3 = new ejemplo(-10, -4); // ambos negativos</span>
+
+<span class="fc" id="L25">        assertAll(</span>
+<span class="fc" id="L26">            () -&gt; assertEquals(-1, r1.area()),</span>
+<span class="fc" id="L27">            () -&gt; assertEquals(-1, r1.perimetro()),</span>
+
+<span class="fc" id="L29">            () -&gt; assertEquals(-1, r2.area()),</span>
+<span class="fc" id="L30">            () -&gt; assertEquals(-1, r2.perimetro()),</span>
+
+<span class="fc" id="L32">            () -&gt; assertEquals(-1, r3.area()),</span>
+<span class="fc" id="L33">            () -&gt; assertEquals(-1, r3.perimetro())</span>
+        );
+<span class="fc" id="L35">    }</span>
+
+    @Test
+    void valoresCero() {
+<span class="fc" id="L39">        ejemplo r1 = new ejemplo(0, 4);  // alto cero</span>
+<span class="fc" id="L40">        ejemplo r2 = new ejemplo(10, 0); // ancho cero</span>
+<span class="fc" id="L41">        ejemplo r3 = new ejemplo(0, 0);  // ambos cero</span>
+
+<span class="nc" id="L43">        assertAll(</span>
+<span class="fc" id="L44">            () -&gt; assertEquals(0, r1.area()),</span>
+<span class="fc" id="L45">            () -&gt; assertEquals(0, r1.perimetro()),</span>
+
+<span class="fc" id="L47">            () -&gt; assertEquals(0, r2.area()),</span>
+<span class="fc" id="L48">            () -&gt; assertEquals(0, r2.perimetro()),</span>
+
+<span class="fc" id="L50">            () -&gt; assertEquals(0, r3.area()),</span>
+<span class="fc" id="L51">            () -&gt; assertEquals(0, r3.perimetro()),</span>
+            
+            
+            
+            // Aserción ERRÓNEA (debería fallar): si hay un 0 el perímetro debe ser 0, no 28
+<span class="pc" id="L56">            () -&gt; assertEquals(28, r1.perimetro())</span>
+            
+            
+            
+        
+        );
+        
+<span class="nc" id="L63">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.14.202510111229</span>testEjemplo (6 may 2026 13:38:06)</div></body></html>
