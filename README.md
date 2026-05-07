@@ -29,6 +29,21 @@ Informe de cobertura: **[Coverage report](./Informe%20de%20cobertura)**
 
 PDF: **[SonarQube.pdf](./SonarQube.pdf)**
 
-## Tarea 4
+## Tarea 4 — Refactorizando Java con Eclipse
 
-## Tarea 5
+En esta tarea se entrega la **segunda versión del proyecto**, ya **refactorizada**, con los **comentarios generados automáticamente**.
+
+Segunda versión del proyecto: **[EjercicioActualizado](./EjercicioActualizado)**
+
+## Tarea 5 — Práctica Javadoc & Markdown
+
+1. Utiliza el proyecto de la **Tarea 1** para generar la documentación **Javadoc** en la que aparezcan:
+
+- Autor
+- Versión
+- Parámetros de cada método
+- Valor devuelto
+
+2. Genera un **README** en el repositorio para estas 5 prácticas, utilizando **Markdown** (incluir algunas imágenes/pantallazos también sería interesante).
+
+Enlace a JavaDoc: **[JavaDoc](./JavaDoc)**
