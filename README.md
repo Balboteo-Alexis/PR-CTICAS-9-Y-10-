@@ -20,7 +20,14 @@ En esta tarea se comprueba la **cobertura del juego de pruebas** usando **EclEmm
 
 Informe de cobertura: **[Coverage report](./Informe%20de%20cobertura)**
 
-## Tarea 3
+## Tarea 3 — SonarLint en acción
+
+**Entregable:** PDF que incluye:
+
+- Pantallazos donde se vea el análisis de **SonarLint** sobre el código del proyecto del **Ejercicio 1**.
+- Una breve explicación de qué es **SonarLint** y qué es **SonarQube**, y en qué casos conviene utilizar una u otra herramienta.
+
+PDF: **[SonarQube.pdf](./SonarQube.pdf)**
 
 ## Tarea 4
 
