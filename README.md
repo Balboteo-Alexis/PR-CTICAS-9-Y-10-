@@ -10,7 +10,15 @@ En esta tarea se realiza un ejercicio en **Java** usando **JUnit** para comproba
 
 Carpeta del ejercicio: **[Ejercicio 1](./Ejercicio1)**
 
-## Tarea 2
+## Tarea 2 — Cobertura de tests unitarios (EclEmma)
+
+En esta tarea se comprueba la **cobertura del juego de pruebas** usando **EclEmma**:
+
+1. Probar la cobertura del juego de pruebas creado en el ejercicio anterior.
+2. Si la cobertura no fuera del **100%**, añadir más juegos de datos (al tratarse de algoritmos simples, no es complejo alcanzar el *full marks*).
+3. Generar un informe **"Coverage report"**.
+
+Informe de cobertura: **[Coverage report](./Informe%20de%20cobertura)**
 
 ## Tarea 3
 
