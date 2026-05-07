@@ -5,6 +5,11 @@ public class rectangle {
     private int alto;
     private int ancho;
 
+    /**
+     * @param alto
+     * @param ancho
+     */
+    
     public rectangle(int alto, int ancho) {
         this.alto = alto;
         this.ancho = ancho;
@@ -24,10 +29,13 @@ public class rectangle {
         return res;
 	}
 
+	
+	
     public int perimeter() {
     	return perimetro();
     }
 
+  
 	protected int perimetro() {
 		int res ;
     	res = 2 * ancho + 2 * alto;
