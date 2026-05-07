@@ -1,30 +1,19 @@
-# PRÁCTICAS 9 Y 10
+# Tarea Evaluable — Práctica 9 y 10
 
-Repositorio de prácticas que reúne ejercicios y ejemplos en **HTML**, **CSS**, **JavaScript** y una pequeña parte en **Java**.
+## Tarea 1 — JUnit (Cuadrado/Rectángulo)
 
-## Contenido
+En esta tarea se realiza un ejercicio en **Java** usando **JUnit** para comprobar el funcionamiento de una implementación sencilla de figuras:
 
-- **Práctica 9**: ejercicios y entregables correspondientes a la práctica 9.
-- **Práctica 10**: ejercicios y entregables correspondientes a la práctica 10.
+- Se crea una clase **Rectángulo**, donde se definen los métodos para calcular el **área** y el **perímetro**.
+- Se crea una clase **Cuadrado** (como caso particular), reutilizando la lógica/estructura necesaria.
+- Finalmente, se implementan los **tests con JUnit** para validar los resultados esperados de los métodos `area` y `perimetro`.
 
-> Nota: La estructura exacta de carpetas/archivos puede variar según la organización del proyecto.
+Carpeta del ejercicio: **[Ejercicio 1](./Ejercicio1)**
 
-## Tecnologías
+## Tarea 2
 
-- HTML
-- CSS
-- JavaScript
-- Java
+## Tarea 3
 
-## Cómo usar este repositorio
+## Tarea 4
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/Balboteo-Alexis/PR-CTICAS-9-Y-10-.git
-   ```
-2. Abre la carpeta del proyecto.
-3. Para los archivos web, abre el `index.html` (o el archivo principal) en tu navegador.
-
-## Autor
-
-- **Balboteo-Alexis**
+## Tarea 5
