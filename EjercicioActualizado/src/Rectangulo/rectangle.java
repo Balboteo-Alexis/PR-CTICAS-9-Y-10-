@@ -1,15 +1,18 @@
 package Rectangulo;
 
-public class ejemplo {
+public class rectangle {
 
     private int alto;
     private int ancho;
 
-    public ejemplo(int alto, int ancho) {
+    public rectangle(int alto, int ancho) {
         this.alto = alto;
         this.ancho = ancho;
     }
 
+    public int surface() {
+        return area();
+    }
 
 	protected int area() {
 		int res;
@@ -21,7 +24,9 @@ public class ejemplo {
         return res;
 	}
 
- 
+    public int perimeter() {
+    	return perimetro();
+    }
 
 	protected int perimetro() {
 		int res ;
